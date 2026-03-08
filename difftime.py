@@ -25,7 +25,7 @@ def main():
     
         if len(lines) != 2: 
             sys.exit("Provide two datetimes as args or via stdin (two lines).") 
-            start_str, end_str = lines 
+        start_str, end_str = lines 
       
     hours, minutes = difftime(start_str, end_str) 
     print(f"{hours}h {minutes}m") 

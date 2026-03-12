@@ -1,8 +1,28 @@
-# DiffTime-CLI
+# DiffTime-cli
 
 A tiny CLI tool inspired by the Unix philosophy that calculates the difference between two dates.
 
 The order of the dates does not matter.
+
+
+Prosty skrypt konsolowy do obliczania różnicy czasu między dwoma momentami.  
+Napisany głównie dla kierowców – szybkie liczenie przerwy między godzinami rozpoczęcia i zakończenia jazdy.
+
+Powstał jako lekka wersja mobilnego [DiffTime](https://github.com/CodeTruckerDev/DiffTime) – do szybkiego użycia w trasie na laptopie lub w terminalu.
+Żadnych bajerów, żadnych zależności, tylko działający kod.
+
+## Co robi
+
+- Przyjmuje dwa argumenty w formacie: DD-MM HH:MM  
+  (rok nie jest wymagany – liczy w obrębie tego samego roku lub prosty przypadek)
+- Wyświetla wynik w godzinach i minutach (np. 8h 25m)
+- Obsługuje dowolną kolejność dat
+- Działa z pipe'em i plikami tekstowymi
+
+---
+
+## Wymagania
+Python 3 (standardowa biblioteka – bez zewnętrznych zależności)
 
 ---
 

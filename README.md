@@ -72,5 +72,15 @@ Output:
 
 ---
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file.
+
+**Attribution appreciated:** If you use this code, a link back to this repo
+would be awesome (but not required). It helps other developers find the original
+work and supports independent creators like me.
+
+---
+
 An Android APK version is available here:
 https://github.com/CodeTruckerDev/DiffTime
